@@ -1,0 +1,204 @@
+    /*light部分start*/
+    .light {
+        position: relative;
+    }
+    .light a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 450px;
+        background: url(../image/light.jpg) no-repeat center top;
+        cursor: default;
+    }
+    /*light部分end*/
+
+    /*main部分start*/
+    .main {
+        position: relative;
+        /*z-index: 2;*/
+        margin-bottom: 10px;
+    }
+    .main-slider {
+        width: 730px;
+        height: 454px;
+        margin: 12px 0 0 219px;
+        float: left;
+        position: relative;
+    }
+    .circle {
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .circle li {
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        color: #fff;
+        text-align: center;
+        border-radius: 9px;
+        margin: 0 2px;
+        float: left;
+        cursor: pointer;
+    }
+    .circle .current {
+        background-color: #B61B1F;
+    }
+    .arrow-l, .arrow-r {
+        position: absolute;
+        top: 50%;
+        /*left: 0;*/
+        margin-top: -31px;
+        width: 28px;
+        height: 62px;
+        color: #fff;
+        font: 700 22px/62px simsun;
+        text-align: center;
+        /*opacity: 0.3;*/
+        background: rgba(0,0,0,0.3);
+    }
+    .arrow a:hover {
+        color: #fff;
+        background: rgba(0,0,0, .6);
+    }
+    .arrow-l {
+        left: 0;
+    }
+    .arrow-r {
+        right: 0;
+    }
+    .main-jsfaster {
+        width: 250px;  
+        height: 454px;
+        margin-top: 12px;
+        float: right;
+    }
+    .main-jsfaster-top {
+        width: 248px;
+        height: 372px;
+        overflow: hidden;
+        border: 1px solid #E4E4E4;
+        margin-bottom: 5px;
+    }
+    .main-jsfaster-top-news {
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;        /*dashed-虚线（大使的）*/
+    }
+    .main-jsfaster-top-news-title {
+        height: 32px;
+        line-height: 32px;
+        padding: 0 15px;
+        border-bottom: 1px dotted #E4E4E4;        /*dotted-点线*/
+    }
+    .main-jsfaster-top-news-title h1 {
+        float: left;
+        font: 400 16px/32px "微软雅黑";
+    }
+    .main-jsfaster-top-news-title a {
+        float: right;
+        font-family: consolas;
+    }
+    .main-jsfaster-top-news-content {
+        padding: 9px 0 0 15px;
+    }
+    .main-jsfaster-top-news-content li {
+        height: 24px;
+    }
+    .main-jsfaster-top-news-content span {
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .main-jsfaster-top-money ul {
+        width: 260px;
+    }
+    .main-jsfaster-top-money li {
+        width: 62px;
+        height: 70px;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        border: 1px solid #E4E4E4;
+        border-top: 0;
+        position: relative;
+    }
+    .main-jsfaster-top-money a {
+        display: block;
+        /*position: relative;    relative不能给行内元素设置宽高       */
+        width: 62px;
+        height: 22px;
+        text-align: center;
+        padding-top: 48px;
+    }
+    .main-jsfaster-top-money i {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 15px;
+        left:18px;
+        background: url(../image/fly.png) no-repeat;
+    }
+    .main-jsfaster-top-money .main-icon2 {
+        background-position: 0 -25px;
+    }
+    .main-jsfaster-top-money .main-icon3 {
+        background-position: 0 -50px;
+    }
+    .main-jsfaster-top-money .main-icon4 {
+        background-position: 0 -75px;
+    }
+    .main-jsfaster-top-money .main-icon5 {
+        background-position: 0 -100px;
+    }
+    .main-jsfaster-top-money .main-icon6 {
+        background-position: 0 -125px;
+    }
+    .main-jsfaster-top-money .main-icon7 {
+        background-position: 0 -150px;
+    }
+    .main-jsfaster-top-money .main-icon8 {
+        background-position: 0 -175px;
+    }
+    .main-jsfaster-top-money .main-icon9 {
+        background-position: 0 -200px;
+    }
+    .main-jsfaster-top-money .main-icon10 {
+        background-position: 0 -225px;
+    }
+    .main-jsfaster-top-money .main-icon11 {
+        background-position: 0 -250px;
+    }
+    .main-jsfaster-top-money .main-icon12 {
+        background-position: 0 -275px;
+    }
+    .spe {
+        background: url(../image/spe.png) no-repeat right top;
+    }
+    /*main部分end*/
+
+    /*today部分start*/
+    .today-l {
+        float: left;    
+    }
+    .today-l a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url(../image/today.png) no-repeat right bottom;
+    }
+    .today-r {
+        float: left;
+        width: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .today-r ul {
+        width: 500%;
+    }
+    .today-r li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*today部分end*/
+
